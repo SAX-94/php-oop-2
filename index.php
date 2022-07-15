@@ -12,7 +12,7 @@ include __DIR__ . '/classes/CreditCard.php';
     PRODUCTS
 *******************************/
 
-$product_text = new Product ('text Product', 'zooplus', 50, 1, 'Dogs');
+$product_text = new Product ('text Product', 'Zooplus', 50, 1, 'Dogs');
 
 $croquettes = new Food ('Croquettes', 'Pedigree', 10, 4, 'Dogs', 200);
 
