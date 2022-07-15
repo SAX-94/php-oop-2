@@ -2,10 +2,10 @@
 class Carrello
 {
     public $total;
-    public User $user;
+    public user $user;
     public $totalprice;    
 
-    public function __construct(float $total, User $user, float $totalprice)
+    public function __construct(float $total, user $user, float $totalprice)
     {
         $this->total = $total;
         $this->user = $user;
