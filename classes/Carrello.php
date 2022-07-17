@@ -1,5 +1,5 @@
 <?php
-class Carrello extends User
+class Carrello
 {
     public $total;
     public user $user;

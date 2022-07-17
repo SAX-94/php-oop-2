@@ -1,6 +1,6 @@
 <?php 
 
-trait User 
+class User 
 {
     public $name;
     public $surname;
