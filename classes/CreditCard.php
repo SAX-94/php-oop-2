@@ -2,14 +2,14 @@
 
 class CreditCard
 {
-    public $credit_card_number;
-    public $scadenza;
-    public User $nome;
-    public User $cognome;
+    private $credit_card_number;
+    private $scadenza;
+    private User $nome;
+    private User $cognome;
 
 
 
-    public function __construct(int $number, string $data_scadenza, User $name, User $surname)
+    function __construct(int $number, string $data_scadenza, User $name, User $surname)
     {
         $this->credit_card_number = $number;
         $this->scadenza = $data_scadenza;
@@ -19,7 +19,7 @@ class CreditCard
 
 
 
-    public function credit_card()
+    function credit_card()
     {
         echo "</ul>
                     <li>Credit card number: {$this->credit_card_number}</li>
@@ -30,7 +30,7 @@ class CreditCard
                 </ul>";
     }
 
-    public function scadenza_creditcard()
+    function scadenza_creditcard()
     {
         $datadioggi = date('d-m-Y');
         $strto_data_oggi = strtotime($datadioggi);
